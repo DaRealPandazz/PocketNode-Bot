@@ -4,7 +4,7 @@ module.exports.run = async (bot, message, args) => {
  if(message.content.indexOf(process.env.PREFIX)) return;
  
  let requested = args[0]
- let description = args.join(" ").slice(args[0]
+ let description = args.join(" ").slice(args[0])
  
  let request = new Discord.RichEmbed()
  .setColor("GREEN")
