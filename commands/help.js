@@ -10,6 +10,7 @@ module.exports.run = async (bot, message, args) => {
  let help = new Discord.RichEmbed()
  .setColor("GREEN")
  .setTitle("Showing Help...")
+ .addField("Commands", "[`request`,`bot`,`suggest`]", true)
  
  message.channel.send(sending);
  message.author.send(help);
