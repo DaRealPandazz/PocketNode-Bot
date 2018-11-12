@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
  .setColor("GREEN")
  .setTitle(`Request By ${message.author.tag}`)
  .addField("Requested Plugin", requested, true)
- .addField("Plugin Description", description, true)
+ .addField("Plugin Description", `${description}, true)
  
  module.exports.help = {
   name: "request"
