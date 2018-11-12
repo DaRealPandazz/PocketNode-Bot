@@ -1,0 +1,16 @@
+{
+  "name": "PocketNode-Bot",
+  "description": "Open Source Bot For TheRoyalDevs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "fs": "0.0.2",
+    "ms": "2.1.1",
+    "request": "2.81.0",
+    "ascii-art": "1.5.0"
+  }
+}
